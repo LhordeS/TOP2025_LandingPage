@@ -1,1 +1,2 @@
 # TOP2025_LandingPage
+This is the second iteration of this project.I completed it once in 2022, but I am doing it again from scratch as I am redoing many of the Odin Project assignments. I am doing this as a means of reviewing the webdev basics before moving on to more advanced topics in preparation for the coding boot camp coming up next spring.
