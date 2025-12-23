@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto;
+    /* min-height: 100vh; */
 }
 
 .header {
@@ -73,26 +74,34 @@ button {
     border-style: none;
     background-color: #3382f6;
     color: white;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .content-section {
     background-color: #f2faf8;
     color: black;
-    padding: 40px 0;
+    padding: 24px 0;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin: 0;
 }
 
 .content-section h2 {
     text-align: center;
-    margin: 0 0 18px 0;
+    margin: 0;
+    /* padding: 10px; */
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .card-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 24px;
+    /* gap: 12px; */
+    margin: 12px 100px 60px 100px;
+    padding: 20px;
 }
 
 .info {
@@ -117,7 +126,7 @@ button {
 
 .card p {
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
 }
 
@@ -138,4 +147,51 @@ button {
     text-align: right;
     margin-top: 16px;
     font-weight: bold;
+}
+
+.c2a-section {
+    background-color: #f2faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.c2a-container {
+    background-color: #3882f6;
+    color: white;
+    padding: 24px 32px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border-radius: 6px;
+}
+
+.c2a-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.c2a-text h3,
+.c2a-text p{
+    margin: 0;
+}
+
+.c2a-button {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    width: 90px;
+    height: 25px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: auto;
+    padding: 16px 0;
 }
